@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00274C;
+    color: #FFFFFF;
+}
+
+header {
+    text-align: center;
+    background-color: #003DA5;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.content-section {
+    padding: 20px;
+}
+
+.bio-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bio-div {
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    width: 30%;
+    background-color: #0056B8;
+    color: #FFFFFF;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+}
+
+.video {
+    text-align: center;
+}
+
+footer {
+    background-color: #003DA5;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #003DA5; /* Lighter BYU Blue */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000; /* Ensures it stays above other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fixed-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.fixed-nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    padding-top: 60px; /* Add padding to prevent content overlap with fixed nav */
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #003DA5; /* Lighter BYU Blue */
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    padding-top: 80px; /* Prevents content overlap with fixed header */
+}
+
+.resume-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #FFFFFF;
+    color: #003DA5;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #E5E5E5;
+}
